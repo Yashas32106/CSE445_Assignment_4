@@ -5,12 +5,12 @@
   <xs:element name="NationalParks">
     <xs:complexType>
       <xs:sequence>
-        <!-- One or more NationalPark elements, left-to-right order per diagram -->
+        <!-- NationalPark elements -->
         <xs:element name="NationalPark" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="Name"    type="xs:string"/>
-              <!-- Multiple Phone elements allowed -->
+              <!-- Multiple Phone elements -->
               <xs:element name="Phone"   type="xs:string" maxOccurs="unbounded"/>
               <xs:element name="Address">
                 <xs:complexType>
@@ -21,12 +21,12 @@
                     <xs:element name="State"  type="xs:string"/>
                     <xs:element name="Zip"    type="xs:string"/>
                   </xs:sequence>
-                  <!-- NearestAirport is a REQUIRED attribute on Address -->
+                  <!-- NearestAirport -->
                   <xs:attribute name="NearestAirport" type="xs:string" use="required"/>
                 </xs:complexType>
               </xs:element>
             </xs:sequence>
-            <!-- Rating is an OPTIONAL attribute on NationalPark -->
+            <!-- Rating (Optional) -->
             <xs:attribute name="Rating" type="xs:decimal" use="optional"/>
           </xs:complexType>
         </xs:element>
