@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <NationalParks>
 
-  <!-- 1. Grand Canyon (example from assignment diagram) -->
+  <!-- 1. Grand Canyon  -->
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
     <Phone>928-638-7496</Phone>
@@ -43,7 +43,7 @@
     </Address>
   </NationalPark>
 
-  <!-- 4. Zion (no Rating - optional attribute omitted) -->
+  <!-- 4. Zion (i didnt provide any rating) -->
   <NationalPark>
     <Name>Zion</Name>
     <Phone>435-772-3256</Phone>
@@ -69,7 +69,7 @@
     </Address>
   </NationalPark>
 
-  <!-- 6. Olympic (no Rating - optional attribute omitted) -->
+  <!-- 6. Olympic (i didn't provide any rating for this) -->
   <NationalPark>
     <Name>Olympic</Name>
     <Phone>360-565-3130</Phone>
@@ -96,7 +96,7 @@
     </Address>
   </NationalPark>
 
-  <!-- 8. Great Smoky Mountains (no Rating - optional attribute omitted) -->
+  <!-- 8. Great Smoky Mountains (no Rating) -->
   <NationalPark>
     <Name>Great Smoky Mountains</Name>
     <Phone>865-436-1200</Phone>
@@ -123,7 +123,7 @@
     </Address>
   </NationalPark>
 
-  <!-- 10. Joshua Tree (no Rating - optional attribute omitted) -->
+  <!-- 10. Joshua Tree (no Rating) -->
   <NationalPark>
     <Name>Joshua Tree</Name>
     <Phone>760-367-5500</Phone>
