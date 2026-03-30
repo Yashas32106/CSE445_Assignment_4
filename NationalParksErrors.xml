@@ -17,7 +17,7 @@
     </Address>
   </NationalPark>
 
-  <!-- Park 2: Yellowstone — ERROR 2: Required attribute NearestAirport is missing on Address -->
+  <!-- Park 2: Yellowstone — ERROR 2: NearestAirport is missing on Address -->
   <NationalPark Rating="4.8">
     <Name>Yellowstone</Name>
     <Phone>307-344-7381</Phone>
