@@ -5,10 +5,11 @@
   <xs:element name="NationalParks">
     <xs:complexType>
       <xs:sequence>
-        <!-- NationalPark elements -->
+        <!-- NationalPark elements-->
         <xs:element name="NationalPark" minOccurs="1" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
+              <!-- Exact order for elements -->
               <xs:element name="Name"    type="xs:string"  minOccurs="1" maxOccurs="1"/>
               <xs:element name="Phone"   type="xs:string"  minOccurs="1" maxOccurs="unbounded"/>
               <xs:element name="Address" minOccurs="1" maxOccurs="1">
