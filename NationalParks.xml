@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <NationalParks>
-
-  <!-- 1. Grand Canyon  -->
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
     <Phone>928-638-7496</Phone>
@@ -15,21 +13,17 @@
       <Zip>86023</Zip>
     </Address>
   </NationalPark>
-
-  <!-- 2. Yellowstone -->
   <NationalPark Rating="4.8">
     <Name>Yellowstone</Name>
     <Phone>307-344-7381</Phone>
     <Address NearestAirport="Jackson Hole">
       <Number>2</Number>
       <Street>Old Faithful Avenue</Street>
-      <City>Yellowstone National Park</City>
+      <City>Yellowstone</City>
       <State>WY</State>
       <Zip>82190</Zip>
     </Address>
   </NationalPark>
-
-  <!-- 3. Yosemite -->
   <NationalPark Rating="4.9">
     <Name>Yosemite</Name>
     <Phone>209-372-0200</Phone>
@@ -42,8 +36,6 @@
       <Zip>95389</Zip>
     </Address>
   </NationalPark>
-
-  <!-- 4. Zion (i didnt provide any rating) -->
   <NationalPark>
     <Name>Zion</Name>
     <Phone>435-772-3256</Phone>
@@ -55,8 +47,6 @@
       <Zip>84767</Zip>
     </Address>
   </NationalPark>
-
-  <!-- 5. Rocky Mountain -->
   <NationalPark Rating="4.7">
     <Name>Rocky Mountain</Name>
     <Phone>970-586-1206</Phone>
@@ -68,8 +58,6 @@
       <Zip>80517</Zip>
     </Address>
   </NationalPark>
-
-  <!-- 6. Olympic (i didn't provide any rating for this) -->
   <NationalPark>
     <Name>Olympic</Name>
     <Phone>360-565-3130</Phone>
@@ -82,8 +70,6 @@
       <Zip>98362</Zip>
     </Address>
   </NationalPark>
-
-  <!-- 7. Acadia -->
   <NationalPark Rating="4.8">
     <Name>Acadia</Name>
     <Phone>207-288-3338</Phone>
@@ -95,8 +81,6 @@
       <Zip>04609</Zip>
     </Address>
   </NationalPark>
-
-  <!-- 8. Great Smoky Mountains (no Rating) -->
   <NationalPark>
     <Name>Great Smoky Mountains</Name>
     <Phone>865-436-1200</Phone>
@@ -109,8 +93,6 @@
       <Zip>37738</Zip>
     </Address>
   </NationalPark>
-
-  <!-- 9. Bryce Canyon -->
   <NationalPark Rating="4.9">
     <Name>Bryce Canyon</Name>
     <Phone>435-834-5322</Phone>
@@ -122,12 +104,10 @@
       <Zip>84764</Zip>
     </Address>
   </NationalPark>
-
-  <!-- 10. Joshua Tree (no Rating) -->
   <NationalPark>
     <Name>Joshua Tree</Name>
     <Phone>760-367-5500</Phone>
-    <Address NearestAirport="Palm Springs International">
+    <Address NearestAirport="Palm Springs">
       <Number>74485</Number>
       <Street>National Park Drive</Street>
       <City>Twentynine Palms</City>
@@ -135,19 +115,16 @@
       <Zip>92277</Zip>
     </Address>
   </NationalPark>
-
-  <!-- 11. Arches -->
   <NationalPark Rating="4.8">
     <Name>Arches</Name>
     <Phone>435-719-2299</Phone>
     <Phone>435-719-2300</Phone>
     <Address NearestAirport="Canyonlands Regional">
-      <Number>N Highway 191</Number>
-      <Street>US-191</Street>
+      <Number>2282</Number>
+      <Street>Resource Boulevard</Street>
       <City>Moab</City>
       <State>UT</State>
       <Zip>84532</Zip>
     </Address>
   </NationalPark>
-
 </NationalParks>
